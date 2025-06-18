@@ -1,6 +1,6 @@
 # Provider Credentials
 vsphere_user     = "your_Username@vsphere.local"
-vsphere_password = "Your_Pawwsord"
+vsphere_password = "Your_Password"
 vsphere_server   = "192.168.1.*"
 
 # Infrastructure Details
