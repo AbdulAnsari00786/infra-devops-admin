@@ -1,12 +1,12 @@
 # Provider Credentials
-vsphere_user     = "Administrator@vsphere.local"
-vsphere_password = "A8du14u$m4n"
-vsphere_server   = "192.168.1.110"
+vsphere_user     = "your_Username@vsphere.local"
+vsphere_password = "Your_Pawwsord"
+vsphere_server   = "192.168.1.*"
 
 # Infrastructure Details
 vsphere_datacenter      = "RGE-Datacenter-01"
-vsphere_host            = "192.168.1.108"
-vsphere_compute_cluster = "192.168.1.108"
+vsphere_host            = "192.168.1.*"
+vsphere_compute_cluster = "192.168.1.*"
 vsphere_datastore       = "Datastore02"
 vsphere_network         = "VM Network"
 
@@ -28,10 +28,10 @@ vm_firmware      = "bios"
 vms = {
   RGE-TEST-01 = {
     name  = "RGE-TEST-01"
-    vm_ip = "192.168.1.111"
+    vm_ip = "192.168.1.*"
   },
   RGE-TEST-02 = {
     name  = "RGE-TEST-02"
-    vm_ip = "192.168.1.112"
+    vm_ip = "192.168.1.*"
   }
 }
